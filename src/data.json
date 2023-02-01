@@ -14,7 +14,7 @@
       "name": "Wine cake",
       "price": 149000,
       "image": "images/2.png",
-      "description": "Quisque id justo sit amet sapien dignissim vestibulum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
+      "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla dapibus dolor vel est. Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros.",
       "isDeleted": false,
       "category": "Ready",
       "expiryDate": null
@@ -34,7 +34,7 @@
       "name": "Chocolate Cake With Strawberries",
       "price": 45000,
       "image": "images/4.png",
-      "description": "Fusce consequat. Nulla nisl. Nunc nisl.",
+      "description": "Fusce consequat. Nulla nisl. Nunc nisl. Fusce consequat. Cras non velit nec nisi vulputate nonummy.",
       "isDeleted": false,
       "category": "Pre-Order",
       "expiryDate": null
