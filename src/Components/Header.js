@@ -14,7 +14,7 @@ function Header() {
           <div className="header-right">
             <a href="#">Pelajaran</a>
             <a href="#">Daftar</a>
-            <a href="#" className="login">Log in</a>
+            <a href="#" className="login">Anggota</a>
           </div>
         </div>
       </header>

@@ -24,28 +24,28 @@ function Main() {
               <h2>Cari tau dari mana anda mau memulai!</h2>
             </div>
             <div className="lessons">
-              <div className="lesson">
+              <div className="lesson" id='con1'>
                 <div className="lesson-icon">
                   <img src="https://prog-8.com/images/html/advanced/html.png" />
                   <p>HTML &amp; CSS</p>
                 </div>
                 <p className="text-contents">Bahasa yang digunakan untuk membuat dan mendesain tampilan situs web Anda. </p>
               </div>
-              <div className="lesson">
+              <div className="lesson" id='con2'>
                 <div className="lesson-icon">
                   <img src="https://prog-8.com/images/html/advanced/jQuery.png" />
                   <p>jQuery</p>
                 </div>
                 <p className="text-contents">Library JavaScript yang cepat, kaya akan fitur, dan mudah digunakan yang menangani animasi dan permintaan Ajax.</p>
               </div>
-              <div className="lesson">
+              <div className="lesson" id='con3'>
                 <div className="lesson-icon">
                   <img src="https://prog-8.com/images/html/advanced/ruby.png" />
-                  <p>Ruby</p>
+                  <p>React</p>
                 </div>
-                <p className="text-contents">Bahasa dinamis, serba guna yang sederhana dan produktif. Ruby sering digunakan untuk membuat aplikasi web yang responsive.</p>
+                <p className="text-contents">Library JavaScript yang cepat, kaya akan fitur. </p>
               </div>
-              <div className="lesson">
+              <div className="lesson" id='con4'>
                 <div className="lesson-icon">
                   <img src="https://prog-8.com/images/html/advanced/php.png" />
                   <p>PHP</p>
