@@ -11,7 +11,7 @@ Heading,
 const Footer = () => {
 return (
 	<Box>
-	<h1 style={{ color: "green",
+	<h1 style={{ color: "#FFCD92",
 				textAlign: "center",
 				marginTop: "-50px" }}>
 		Group 3
@@ -41,28 +41,28 @@ return (
 			<FooterLink href="#">
 			<i className="fab fa-facebook-f">
 				<span style={{ marginLeft: "10px" }}>
-				faafarrel
+				@faafarrel
 				</span>
 			</i>
 			</FooterLink>
 			<FooterLink href="#">
 			<i className="fab fa-instagram">
 				<span style={{ marginLeft: "10px" }}>
-				zalfalisya
+				@zalfalisya
 				</span>
 			</i>
 			</FooterLink>
 			<FooterLink href="#">
 			<i className="fab fa-twitter">
 				<span style={{ marginLeft: "10px" }}>
-				griseldaputric
+				@griseldaputric
 				</span>
 			</i>
 			</FooterLink>
 			<FooterLink href="#">
 			<i className="fab fa-youtube">
 				<span style={{ marginLeft: "10px" }}>
-				nlfaa
+				@nlfaa
 				</span>
 			</i>
 			</FooterLink>

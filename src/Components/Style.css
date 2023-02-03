@@ -90,13 +90,14 @@
   header {
     height: 65px;
     width: 100%;
-    background-color:#FFCD92;
+    background-color:#000;
     position :fixed;
     top: 0;
     z-index: 10;
   }
   
   .logo {
+    color: #fff;
     width: 124px;
     margin-top: 20px;
   }
@@ -113,7 +114,7 @@
   .header-right a {
     line-height: 65px;
     padding: 0 25px;
-    color: #000;
+    color: #fff;
     font-weight: bold;
     display: block;
     float: left;

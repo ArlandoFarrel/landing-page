@@ -42,20 +42,20 @@ grid-gap: 20px;
 `;
 
 export const FooterLink = styled.a`
-color: #fff;
+color: #FFCD92;
 margin-bottom: 20px;
 font-size: 18px;
 text-decoration: none;
 
 &:hover {
-	color: green;
+	color: #FFCD92;
 	transition: 200ms ease-in;
 }
 `;
 
 export const Heading = styled.p`
 font-size: 24px;
-color: #fff;
+color: #FFCD92;
 margin-bottom: 40px;
 font-weight: bold;
 `;
