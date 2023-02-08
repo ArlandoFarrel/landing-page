@@ -1,20 +1,26 @@
-import React from 'react';
-import './Style.css';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom'
+// import './Style.css';
+import './Style.css'
 function Header() {
+  const [nav, setNav] = useState(false);
+
+    const handleNav = () => {
+        setNav(!nav);
+    }
   return (
     <div>
-       <header>
+      <header>
         <div className="container">
           <div className="header-left">
-            {/* <img className="logo" src="https://prog-8.com/images/html/advanced/main_logo.png" /> */}
-            <h1 className="logo">Group 3</h1>
+            <img className="logo" src="https://prog-8.com/images/html/advanced/main_logo.png" />
           </div>
-          {/* Tambahkan ikon menu disini */}
           <span className="fa fa-bars menu-icon" />
           <div className="header-right">
-            <a href="#">Pelajaran</a>
-            <a href="#">Daftar</a>
-            <a href="#" className="login">Anggota</a>
+          <ul className={nav ? "slide" : ""}>
+                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/Card">Product</Link></li>
+          </ul>
           </div>
         </div>
       </header>

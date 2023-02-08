@@ -1,9 +1,12 @@
 import React from 'react'
+import Header from './Header'
+import Footer from './Footer'
 import './Style.css'
 
 function Main() {
   return (
     <div>
+      <Header />
       <div className="top-wrapper">
           <div className="container">
             <h1>BELAJAR CODING.</h1>
@@ -65,6 +68,7 @@ function Main() {
             <span className="btn message">Explore</span>
           </div>
         </div>
+        <Footer />
     </div>
   )
 }
