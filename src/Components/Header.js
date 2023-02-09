@@ -13,7 +13,7 @@ function Header() {
       <header>
         <div className="container">
           <div className="header-left">
-            <img className="logo" src="https://prog-8.com/images/html/advanced/main_logo.png" />
+            <h1>Group 3</h1>
           </div>
           <span className="fa fa-bars menu-icon" />
           <div className="header-right">
@@ -22,6 +22,11 @@ function Header() {
                             <li><Link to="/Card">Product</Link></li>
           </ul>
           </div>
+          <div className="menu-toggle">
+                            <a onClick={() => handleNav()}>
+                                <i className="fa-solid fa-bars fa-2x"></i>
+                            </a>
+                        </div>
         </div>
       </header>
     </div>

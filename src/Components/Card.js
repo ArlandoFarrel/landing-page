@@ -1,8 +1,8 @@
-import data from "./data.json";
+import data from "../data.json";
 import './Card.css';
 import React, {  useEffect, useState } from "react";
-import Header from "./Header";
-
+import Header from './Header'
+import Footer from "./Footer";
 
 function Card() {
   const [keyword, setKeyword] = useState('');
@@ -32,6 +32,7 @@ function Card() {
   return (
     <>
     <Header />
+
     <div className="templateContainer">
       
       <div className="searchInput_Container">
@@ -53,7 +54,7 @@ function Card() {
       </div>
       
       <div className="information">
-        {getFiltered(data.length)}
+                {getFiltered(hasilFilter.length)}
       </div>
 
       <div className="template_Container">
@@ -91,6 +92,7 @@ function Card() {
           }
       </div>
     </div>
+    <Footer />
     </>
   );
 }

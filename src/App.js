@@ -14,6 +14,7 @@ function App() {
           <Route path='/' element={<Main />} />
           <Route path='/Card' element={<Card />} />
         </Routes>
+        
         {/* <div>
           <Link to='/'>Main</Link>
           <Link to='/Card'>Product</Link>
