@@ -16,8 +16,8 @@ function Main() {
             <div className="btn-wrapper">
               <a href="#" className="btn signup">About Us</a>
               <p></p>
-              <a href="#" className="btn facebook"><span className="fa fa-facebook" />Dream Job</a>
-              <a href="#" className="btn twitter"><span className="fa fa-twitter" />Fun Fact</a>
+              <a href="#" className="btn facebook">Dream Job</a>
+              <a href="#" className="btn twitter">Fun Fact</a>
             </div>
           </div>
         </div>
